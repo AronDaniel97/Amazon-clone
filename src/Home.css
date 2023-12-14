@@ -1,0 +1,25 @@
+.home__image {
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -350px;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.home__row {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+/* import React from "react";
+import numeral from "numeral";
+
+const CurrencyFormat = ({ amount }) => {
+  const formattedAmount = numeral(amount).format("$0,0.00");
+
+  return <div>{formattedAmount}</div>;
+};
+
+export default CurrencyFormat; */
